@@ -1,6 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
 html {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
+}
+
+#app{
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border:1px solid white;
+}
+
+.web_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.traine_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
