@@ -14,9 +14,17 @@ const dev_page_change = document.querySelector(".traine_img");
 const traine_page_change = document.querySelector(".dev_section");
 
 dev_page_change.addEventListener("click", function () {
-  console.log("on click traine page");
+  document.querySelector("#app").innerHTML = `<header>
+        <nav>nawigacja</nav>
+      </header>
+      <section>Strona o web deveploer</section>
+      <footer>stopka</footer>`;
 });
 
 traine_page_change.addEventListener("click", function () {
-  console.log("on click dev page");
+  document.querySelector("#app").innerHTML = `<header>
+          <nav>nawigacja</nav>
+        </header>
+        <section>Strona o personal trainer</section>
+        <footer>stopka</footer>`;
 });
