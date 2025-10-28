@@ -25,7 +25,13 @@ html {
     width: 10rem;
     background-size: cover;
   }
+  .dev_img:hover{
+    scale: 1.15;
+    rotate: 3deg;
+  }
 }
+
+
 
 .traine_section{
   display: flex;
@@ -34,6 +40,10 @@ html {
   .traine_img{
     width: 10rem;
     background-size: cover;
+  }
+  .traine_img:hover{
+    scale: 1.15;
+    rotate: 3deg;
   }
 }
 
