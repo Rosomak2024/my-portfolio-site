@@ -17,15 +17,19 @@ html {
   border:1px solid white;
 }
 
-.dev_section{
+.dev_section_show{
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
 
+.dev_section_hide{
+  display: none;
+}
+
 .dev_img{
-  width: 10rem;
+  width: 15rem;
   background-size: cover;
 }
 .dev_img:hover{
@@ -44,18 +48,38 @@ html {
   }
 }
 
-.traine_section{
+.traine_section_show{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.traine_section_hide{
+  display: none;
+}
+
 .traine_img{
-  width: 10rem;
+  width: 15rem;
   background-size: cover;
 }
 
 .traine_img:hover{
     cursor: pointer;
     animation: fadeIn 1s ease-in-out;
+}
+
+button {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+}
+
+.dev_page_hide{
+  display: none;
+  color:white;
+}
+
+.dev_page_show{
+  display: block;
+  color: white;
 }
