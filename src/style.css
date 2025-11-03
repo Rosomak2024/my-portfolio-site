@@ -4,24 +4,23 @@
 
 html {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 #app{
   width: 95vw;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  border:1px solid white;
 }
 
 .dev_section_show{
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  padding-right: 10rem ;
 }
 
 .dev_section_hide{
@@ -32,6 +31,7 @@ html {
   width: 15rem;
   background-size: cover;
 }
+
 .dev_img:hover{
   cursor: pointer; 
   animation: fadeIn 1s ease-in-out;
@@ -68,18 +68,25 @@ html {
     animation: fadeIn 1s ease-in-out;
 }
 
-button {
+.btn_back {
   background-color: white;
   width: 200px;
   height: 50px;
+  color:black;
 }
 
 .dev_page_hide{
   display: none;
-  color:white;
 }
 
 .dev_page_show{
   display: block;
-  color: white;
+}
+
+.traine_page_hide{
+  display: none;
+}
+
+.traine_page_show{
+  display: block;
 }
