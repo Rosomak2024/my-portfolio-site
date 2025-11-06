@@ -2,8 +2,12 @@
   box-sizing: border-box;
 }
 
-html {
+:root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --main-width: 90vw;
+}
+
+body{
   color: black;
   background-color: white;
 }
@@ -80,7 +84,7 @@ html {
 }
 
 .dev_page_show{
-  display: block;
+  display: flex;
 }
 
 .traine_page_hide{
@@ -88,5 +92,5 @@ html {
 }
 
 .traine_page_show{
-  display: block;
+  display: flex;
 }

@@ -1,0 +1,38 @@
+
+
+.dev_page_show{
+    width:100vw ;
+    height:100vh ;
+    background-color: whitesmoke;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.dev_main_container{
+    display: flex;
+    height: 70vh;
+    border: 1px solid black;
+    flex-direction: row;
+}
+
+.dev_header{
+    display: flex;
+}
+
+.dev_main_content{
+width: 70vw;
+border: 1px solid red;
+margin-left: 20px;
+}
+
+aside{
+    width: 20vw;
+    border: 1px solid green;
+}
+
+footer{
+    width: var(--main-width);
+    border: 1px solid blue;
+}
+
